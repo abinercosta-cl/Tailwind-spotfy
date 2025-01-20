@@ -4,6 +4,7 @@ import {
 	Library,
 	ChevronLeft,
 	ChevronRight,
+	Play,
 } from "lucide-react";
 
 export default function Home() {
@@ -65,55 +66,150 @@ export default function Home() {
 					</div>
 					<h1 className="font-semi-bold text-3xl mt-10">Good Afternoon</h1>
 
-					<div className="grid grid-cols-3 gap-4">
-						<div className="bg-white/10 rounded">
+					<div className="grid grid-cols-3 gap-4 mt-8">
+						<a className="flex items-center gap-4 bg-white/10 rounded hover:bg-white/20 group">
 							<img
 								src="/judas_album_7mz.png"
-								width={80}
-								height={80}
+								width={104}
+								height={104}
 								alt="caveira branca"
 							/>
-						</div>
-						<div className="bg-white/10 rounded">
+							<strong>Pancadao</strong>
+							<button className="w-12 h-12 flex items-center justify-center invisible group-hover:visible p-2 rounded-full bg-green-500 text-black ml-auto mr-8">
+								<Play />
+							</button>
+						</a>
+						<a className="flex items-center gap-4 bg-white/10 rounded hover:bg-white/20 group">
 							<img
 								src="/judas_album_7mz.png"
-								width={80}
-								height={80}
+								width={104}
+								height={104}
 								alt="caveira branca"
 							/>
-						</div>
-						<div className="bg-white/10 rounded">
+							<strong>Pancadao</strong>
+							<button className="w-12 h-12 flex items-center justify-center invisible group-hover:visible p-2 rounded-full bg-green-500 text-black ml-auto mr-8">
+								<Play />
+							</button>
+						</a>
+						<a className="flex items-center gap-4 bg-white/10 rounded hover:bg-white/20 group">
 							<img
 								src="/judas_album_7mz.png"
-								width={80}
-								height={80}
+								width={104}
+								height={104}
 								alt="caveira branca"
 							/>
-						</div>
-						<div className="bg-white/10 rounded">
+							<strong>Pancadao</strong>
+							<button className="w-12 h-12 flex items-center justify-center invisible group-hover:visible p-2 rounded-full bg-green-500 text-black ml-auto mr-8">
+								<Play />
+							</button>
+						</a>
+						<a className="flex items-center gap-4 bg-white/10 rounded hover:bg-white/20 group">
 							<img
 								src="/judas_album_7mz.png"
-								width={80}
-								height={80}
+								width={104}
+								height={104}
 								alt="caveira branca"
 							/>
-						</div>
-						<div className="bg-white/10 rounded">
+							<strong>Pancadao</strong>
+							<button className="w-12 h-12 flex items-center justify-center invisible group-hover:visible p-2 rounded-full bg-green-500 text-black ml-auto mr-8">
+								<Play />
+							</button>
+						</a>
+						<a className="flex items-center gap-4 bg-white/10 rounded hover:bg-white/20 group">
 							<img
 								src="/judas_album_7mz.png"
-								width={80}
-								height={80}
+								width={104}
+								height={104}
 								alt="caveira branca"
 							/>
-						</div>
-						<div className="bg-white/10 rounded">
+							<strong>Pancadao</strong>
+							<button className="w-12 h-12 flex items-center justify-center invisible group-hover:visible p-2 rounded-full bg-green-500 text-black ml-auto mr-8">
+								<Play />
+							</button>
+						</a>
+						<a className="flex items-center gap-4 bg-white/10 rounded hover:bg-white/20 group">
 							<img
 								src="/judas_album_7mz.png"
-								width={80}
-								height={80}
+								width={104}
+								height={104}
 								alt="caveira branca"
 							/>
-						</div>
+							<strong>Pancadao</strong>
+							<button className="w-12 h-12 flex items-center justify-center invisible group-hover:visible p-2 rounded-full bg-green-500 text-black ml-auto mr-8">
+								<Play />
+							</button>
+						</a>
+					</div>
+					<h2 className="font-semi-bold text-2xl mt-10">
+						Made for Abiner Costa
+					</h2>
+
+					<div className="grid grid-cols-8 gap-4 mt-4">
+						<a
+							href=""
+							className="bg-white/5 p-3 rounded flex flex-col gap-2 hover:bg-white/10"
+						>
+							<img
+								src="/judas_album_7mz.png"
+								width={104}
+								height={104}
+								alt="caveira branca"
+							/>
+							<strong className="font-semibold">Daily Mix 1</strong>
+							<span className="text-xs text-zinc-500"> Mix de musicas 7Mz</span>
+						</a>
+						<a
+							href=""
+							className="bg-white/5 p-3 rounded flex flex-col gap-2 hover:bg-white/10"
+						>
+							<img
+								src="/judas_album_7mz.png"
+								width={104}
+								height={104}
+								alt="caveira branca"
+							/>
+							<strong className="font-semibold">Daily Mix 1</strong>
+							<span className="text-xs text-zinc-500"> Mix de musicas 7Mz</span>
+						</a>
+						<a
+							href=""
+							className="bg-white/5 p-3 rounded flex flex-col gap-2 hover:bg-white/10"
+						>
+							<img
+								src="/judas_album_7mz.png"
+								width={104}
+								height={104}
+								alt="caveira branca"
+							/>
+							<strong className="font-semibold">Daily Mix 1</strong>
+							<span className="text-xs text-zinc-500"> Mix de musicas 7Mz</span>
+						</a>
+						<a
+							href=""
+							className="bg-white/5 p-3 rounded flex flex-col gap-2 hover:bg-white/10"
+						>
+							<img
+								src="/judas_album_7mz.png"
+								width={104}
+								height={104}
+								alt="caveira branca"
+							/>
+							<strong className="font-semibold">Daily Mix 1</strong>
+							<span className="text-xs text-zinc-500"> Mix de musicas 7Mz</span>
+						</a>
+						<a
+							href=""
+							className="bg-white/5 p-3 rounded flex flex-col gap-2 hover:bg-white/10"
+						>
+							<img
+								src="/judas_album_7mz.png"
+								width={104}
+								height={104}
+								alt="caveira branca"
+							/>
+							<strong className="font-semibold">Daily Mix 1</strong>
+							<span className="text-xs text-zinc-500"> Mix de musicas 7Mz</span>
+						</a>
 					</div>
 				</main>
 			</div>
